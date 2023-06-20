@@ -8,14 +8,14 @@ All functions are named after their respective endpoints in as listed in the 'Sp
 
 *Logging the response from the `/glossary` endpoint*
 ```js
-const noaaaa = require('noaaaa');
-noaaaa.glossary();
+const noaagh = require('noaagh');
+noaagh.glossary();
 /* '1-2-3 Rule'
 'A means of avoiding winds associated with a tropical cyclone by taking into account the forecast track error of the National Weather Service...'*/
 ```
 *Logging the response from the `/alerts/active/zone/ILC104` endpoint for Chicago, Illinois*
 ```js
-noaaaa.alertsActiveZone(104);
+noaagh.alertsActiveZone('ILC104');
 /* 'Current watches, warning, and advisories for ILC104' */
 ```
 ## Resources
@@ -29,4 +29,3 @@ noaaaa.alertsActiveZone(104);
 - Clean up the code, perhaps not so repetitive
 - Provide example .js files
 - Provide more NWS resources
-- I am adding things to get git to work so don't mind this one
