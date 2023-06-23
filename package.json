@@ -1,6 +1,6 @@
 {
   "name": "noaagh",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A JavaScript wrapper for the NOAA/NWS Public API",
   "main": "index.js",
   "scripts": {
