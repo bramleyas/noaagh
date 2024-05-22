@@ -18,24 +18,24 @@ noaagh.glossary();
 ```
 *Logging the response from the `/alerts/active/zone/ILC104` endpoint for Chicago, Illinois*
 ```js
-noaagh.alertsActiveZone('ILC104').then(output) => {
+noaagh.alertsActiveZone('ILC104').then((output) => {
   console.log(output);
-};
+});
 // ...'Current watches, warning, and advisories for ILC104'...
 ```
 ### Built-in functions
 **temperature():** *Logging the temperature at Fox 8's studios in Cleveland, Ohio (only accepts coordinates)*
 ```js
-noaagh.temperature('41.5303, -81.6491').then(output) => {
+noaagh.temperature('41.5303, -81.6491').then((output) => {
   console.log(output);
-};
+});
 // 68
 ```
 **shortForecast():** *Logging the general conditions at I-95 bridge collapse in Philadelphia, Pennsylvania (only accepts coordinates)*
 ```js
-noaagh.shortForecast('40.0244, -75.0308').then(output) => {
+noaagh.shortForecast('40.0244, -75.0308').then((output) => {
   console.log(output);
-};
+});
 // Overcast
 ```
 ## Resources
